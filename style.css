@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+    background:rgb(169, 204, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    box-sizing: border-box;
+}
+nav{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    position:fixed;
+    top:0;
+    height:200px;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    padding:5px;
+}
+.portrait{
+    background-image: url("Assets/self-portrait.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:1px black solid;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+}
+main{
+    position:fixed;
+    top:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin:10px 50px;
+    padding:5px;
+    text-align: center;
+}
+hr{
+    background:black;
+    width:50%;
+    height:2px;
+    border:none;
+}
+p{
+    font-size: 18pt;
+}
